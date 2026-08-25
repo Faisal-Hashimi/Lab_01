@@ -1,0 +1,96 @@
+OOP LAB - ANSWERS
+
+
+PART C
+
+Question 1:
+How many classes did you create?
+
+Answer:
+4 classes.
+
+The classes are:
+1. Person
+2. Student
+3. BankAccount
+4. Vehicle
+5. Car
+
+Note: There are actually 5 classes in the complete program
+
+
+Question 2
+How many objects did you create?
+
+Answer:
+5 objects
+
+The objects are:
+1. $student1
+2. $student2
+3. $account1
+4. $student3
+5. $car1
+
+
+PART D
+
+Question
+Does echo $account1->balance; work?
+
+Answer:
+No.
+
+
+Why?
+
+Answer:
+Because $balance is private.
+A private property can only be accessed inside the same class.
+It cannot be accessed directly from outside the class.
+
+
+PART F - UNDERSTANDING INHERITANCE
+
+Question 1
+Which class is the parent class?
+
+Answer:
+Person
+
+
+Question 2:
+Which class is the child class?
+
+Answer:
+Student
+
+
+Question 3:
+Which keyword creates the inheritance relationship?
+
+Answer:
+extends
+
+
+Question 4:
+The introduce() method was written inside which class?
+
+Answer:
+Person
+
+
+Question 5:
+Can the $student1 object call introduce()?
+
+Answer:
+Yes.
+
+
+Question 6:
+Why can $student1 use introduce() even though it is not written
+inside the Student class?
+
+Answer:
+Because Student inherits from Person.
+The Student class can use methods from its parent class.
